@@ -29,11 +29,17 @@ If you don't know how to install **OpenCV DNN CUDA**, check these
 ### parameter setting
 
 **general**
+
 ``` -y, --yolo: path to yolo weight, cfg, pb folder; default: ./yolo-coco```
+
 ``` -i, --image: path to image file; default: ./doc/image/dog.jpg```
+
 ``` -t, --times: loop for testing; default: 100```
 
+<br/>
+
 **only for yolo_TF.py**
+
 ``` -g, --gpu_utility: reduce gpu memory utility to prevent from KILLED; default: 0.5```
 
 <br/>
