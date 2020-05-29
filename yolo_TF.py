@@ -60,7 +60,7 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument("-y", "--yolo", default="./yolo-coco",
                     help="path to yolo-coco.pb folder")
-    ap.add_argument("-i", "--image", default="./doc/image/dog.jpg",
+    ap.add_argument("-i", "--image", default="./doc/images/dog.jpg",
                     help="path to image file")
     ap.add_argument("-g", "--gpu_utility", type=float, default=0.5,
                     help="reduce gpu memory utility to prevent from KILLED")
