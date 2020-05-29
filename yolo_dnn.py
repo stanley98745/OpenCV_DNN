@@ -49,7 +49,7 @@ if __name__ == '__main__':
                     help="path to yolo weight, cfg folder")
     ap.add_argument("-i", "--image", default="./doc/images/dog.jpg",
                     help="path to image file")
-    ap.add_argument("-t", "--times", type=int,
+    ap.add_argument("-t", "--times", type=int, default=100,
                     help="loop for testing")
     args = vars(ap.parse_args())
 
